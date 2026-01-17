@@ -30,7 +30,44 @@ info:
     url: http://www.apache.org/licenses/LICENSE-2.0.html
 
 paths:
-  # API endpoints
+  /:
+    get:
+      summary: Returns a description of the service.
+      responses:
+        '200':
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: string
+                description: a plain text, human readable description of the service
+                example: |
+                  Transfer To Vault API Running (v${project.version})
+
+  /send-to-vault/flush:
+    post:
+      summary: Sends the currently staged batch to the Data Vault, regardless of its size
+      responses:
+        '202':
+          description: Accepted
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StatusMessage'
+
 
 components:
   # Reusable schemas
+  schemas:
+    StatusMessage:
+      type: object
+      properties:
+        status:
+          type: string
+          example: OK
+        message:
+          type: string
+          example: Action completed successfully
+      required:
+        - status
+        - message
