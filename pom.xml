@@ -26,7 +26,7 @@
     </parent>
 
     <artifactId>dd-transfer-to-vault-api</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1-SNAPSHOT</version>
 
     <name>Dd Transfer To Vault Api</name>
     <url>https://github.com/DANS-KNAW/dd-transfer-to-vault-api</url>
@@ -35,7 +35,7 @@
 
     <scm>
         <developerConnection>scm:git:ssh://github.com/DANS-KNAW/dd-transfer-to-vault-api</developerConnection>
-        <tag>v0.1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
