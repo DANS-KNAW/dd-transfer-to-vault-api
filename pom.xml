@@ -28,7 +28,7 @@
     <artifactId>dd-transfer-to-vault-api</artifactId>
     <version>0.1.1-SNAPSHOT</version>
 
-    <name>Dd Transfer To Vault Api</name>
+    <name>DD Transfer To Vault API</name>
     <url>https://github.com/DANS-KNAW/dd-transfer-to-vault-api</url>
     <description>Service for transferring dataset version exports to the DANS Data Vault</description>
     <inceptionYear>2026</inceptionYear>
