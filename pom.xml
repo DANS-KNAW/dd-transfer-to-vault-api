@@ -30,7 +30,7 @@
 
     <name>DD Transfer To Vault API</name>
     <description>Service for transferring dataset version exports to the DANS Data Vault</description>
-    <url>https://github.com/DANS-KNAW/dd-transfer-to-vault-api</url>
+    <url>https://dans-knaw.github.io/dd-transfer-to-vault-api</url>
     <inceptionYear>2026</inceptionYear>
 
     <scm>
