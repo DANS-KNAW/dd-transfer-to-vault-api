@@ -26,7 +26,7 @@
     </parent>
 
     <artifactId>dd-transfer-to-vault-api</artifactId>
-    <version>0.1.2-SNAPSHOT</version>
+    <version>0.1.2</version>
 
     <name>DD Transfer To Vault API</name>
     <description>Service for transferring dataset version exports to the DANS Data Vault</description>
@@ -36,7 +36,7 @@
     <scm>
         <connection>scm:git:https://github.com/DANS-KNAW/dd-transfer-to-vault-api</connection>
         <developerConnection>scm:git:ssh://github.com/DANS-KNAW/dd-transfer-to-vault-api</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v0.1.2</tag>
         <url>https://github.com/DANS-KNAW/dd-transfer-to-vault-api</url>
     </scm>
 
