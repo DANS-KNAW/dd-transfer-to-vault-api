@@ -38,12 +38,9 @@ paths:
         '200':
           description: OK
           content:
-            text/plain:
+            application/json:
               schema:
-                type: string
-                description: a plain text, human readable description of the service
-                example: |
-                  Transfer To Vault API Running (v${project.version})
+                $ref: '#/components/schemas/AppInfo'
 
   /send-to-vault/flush:
     post:
@@ -61,6 +58,13 @@ paths:
 components:
   # Reusable schemas
   schemas:
+    AppInfo:
+      type: object
+      properties:
+        name:
+          type: string
+        version:
+          type: string
     StatusMessage:
       type: object
       properties:
